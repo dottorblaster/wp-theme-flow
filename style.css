@@ -229,18 +229,25 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote {
-	font-family: Petrona, serif;
+	font-family: 'Inika', serif;
+	font-size: 18px;
+	font-weight: 700;
 	margin: 0 1.0em;
-	color: #303030;
+	margin-bottom: 1.0em;
+	color: #505050;
 	quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-	color: #ccc;
+	color: #505050;
 	content: open-quote;
 	font-size: 4em;
 	line-height: 0.1em;
 	margin-right: 0.25em;
 	vertical-align: -0.4em;
+}
+blockquote p {
+	display: inline;
+	font-family: 'Inika', serif;
 }
 address {
 	margin: 0 0 1.5em;
