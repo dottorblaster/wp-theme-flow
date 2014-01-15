@@ -13,6 +13,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic|Open+Sans:700' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Petrona' rel='stylesheet' type='text/css' />
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
