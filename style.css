@@ -774,20 +774,17 @@ object {
 /* =Responsive
 ----------------------------------------------- */
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
 	#primary {
 		margin-top: 15px;
 		text-align: center;
-	 	width:70%;
-	 	float: center;
+	 	width:100%;
 	}
 	#masthead {
 		text-align: center;
 		font-size: 10px;
 		margin-bottom: 70px;
-		float: center;
-		width: 30%;
-		max-width: 300px;
+		width: 100%;
 		height: 100%;
 	}
 
@@ -795,7 +792,6 @@ object {
 		font-size: 10px;
 		text-align: center;
 		margin-bottom: 10px;
-		float: center;
 		width: 100%;
 	}
 }
