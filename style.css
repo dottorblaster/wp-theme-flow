@@ -110,6 +110,14 @@ body {
 	font-size: 35pt;
 	margin-top: -10px;
 }
+	#blogname a {
+		text-align: center;
+		font-family: 'Kingthings_Printingkit', Arial, sans-serif;
+		font-size: 35pt;
+		margin-top: -10px;
+		text-decoration: none;
+		color: #404040;
+	}
 
 #desc-header {
 	text-align: center;
@@ -774,7 +782,7 @@ object {
 /* =Responsive
 ----------------------------------------------- */
 
-@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+@media only screen and (max-width: 850px), only screen and (max-device-width: 850px) {
 	#primary {
 		margin-top: 15px;
 		text-align: center;
@@ -785,13 +793,41 @@ object {
 		font-size: 10px;
 		margin-bottom: 70px;
 		width: 100%;
-		height: 100%;
+		max-width: 100%;
 	}
-
 	#colophon {
 		font-size: 10px;
 		text-align: center;
 		margin-bottom: 10px;
 		width: 100%;
+	}
+	#blogname {
+		text-align: center;
+		font-family: 'Kingthings_Printingkit', Arial, sans-serif;
+		font-size: 25pt;
+		margin-top: -10px;
+	}
+	#desc-header {
+		text-align: center;
+		font-weight: 300;
+		font-size:14px;
+		margin-top: 5px;
+		margin-bottom: 50px;
+	}
+	#personalavatar {}
+
+		#personalavatar img {
+			border-radius: 50px; /* Caution: this is SPECIFICALLY for what I included in functions.php. Header image/avatar must be 200x200 px.; */
+			-webkit-border-radius: 50px;
+			-moz-border-radius: 50px;
+			margin-top: 15px;
+			height: 100px;
+			width: 100px;
+
+			border: 3px solid #000000;
+			box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+		}
+	.entry-content {
+		font-size: 14px;
 	}
 }
