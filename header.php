@@ -56,7 +56,7 @@
 		<hgroup>
 			<h1 class="site-title">
 				<div id="personalavatar"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo( 'name' ); ?>" /></a></div>
-				<div id="blogname"><?php bloginfo( 'name' ); ?></div>
+				<div id="blogname"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
 				<div id="desc-header">di <a href="http://dottorblaster.it/about-alessio-biancalana/">Alessio Biancalana</a></div>
 				<span class="codeblock"><font color="#CE2B37">~</font> <font color="#009246">$</font> gdb ./life</span>
 			</h1>
