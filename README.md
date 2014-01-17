@@ -1,8 +1,7 @@
-Lean for WordPress
+Flow for WordPress
 ==================
 
-Hi :)
-This is my second theme for WordPress named Lean: I'm looking forward to a very content-is-king approach for my blog, so I decided to design some kind of one column beautiful theme to satisfy my need - as I am not seeing much of this stuff lookin' around.
+_I have to rewrite this part ;)_
 
 This is **not** a parent theme, or a child theme: just upload it, select it and have fun.
 If you want to edit my work, report credits please. It's the only price to pay.
