@@ -42,8 +42,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 @font-face {
-	font-family: Kingthings_Printingkit;
-	src: url("Kingthings_Printingkit.ttf") format('truetype');
+	font-family: Chunkfive;
+	src: url("Chunkfive.otf") format('opentype');
 }
 
 html {
@@ -106,13 +106,13 @@ body {
 
 #blogname {
 	text-align: center;
-	font-family: 'Kingthings_Printingkit', Arial, sans-serif;
+	font-family: 'Chunkfive', Arial, sans-serif;
 	font-size: 35pt;
 	margin-top: -10px;
 }
 	#blogname a {
 		text-align: center;
-		font-family: 'Kingthings_Printingkit', Arial, sans-serif;
+		font-family: 'Chunkfive', Arial, sans-serif;
 		font-size: 35pt;
 		margin-top: -10px;
 		text-decoration: none;
@@ -803,7 +803,7 @@ object {
 	}
 	#blogname {
 		text-align: center;
-		font-family: 'Kingthings_Printingkit', Arial, sans-serif;
+		font-family: 'Chunkfive', Arial, sans-serif;
 		font-size: 25pt;
 		margin-top: -10px;
 	}
