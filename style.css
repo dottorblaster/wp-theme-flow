@@ -784,7 +784,7 @@ object {
 
 @media only screen and (max-width: 850px), only screen and (max-device-width: 850px) {
 	#primary {
-		margin-top: 15px;
+		margin-top: -100px;
 		text-align: center;
 	 	width:100%;
 	}
@@ -829,5 +829,8 @@ object {
 		}
 	.entry-content {
 		font-size: 14px;
+	}
+	.codeblock {
+		visibility: hidden;
 	}
 }
